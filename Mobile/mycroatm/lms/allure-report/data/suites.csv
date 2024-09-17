@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","16842","Menu history berjalan dengan sesuai","","Tue Sep 10 15:56:44 WIB 2024","broken","Tue Sep 10 15:57:01 WIB 2024","","History Aplikasi LMS","",""
+"","43210","Cek Saldo berhasil","","Tue Sep 10 15:59:57 WIB 2024","passed","Tue Sep 10 16:00:40 WIB 2024","","Cek Saldo Aplikasi LMS","",""
+"","18027","should login with valid credentials","","Tue Aug 27 15:34:15 WIB 2024","passed","Tue Aug 27 15:34:33 WIB 2024","","My Login application","",""
+"","11","should successfully run positive tests","","Tue Sep 10 15:59:40 WIB 2024","passed","Tue Sep 10 15:59:40 WIB 2024","","Automasi Pengujian Aplikasi - Semua Tes","",""
+"","16905","Login dengan credential yang sesuai","","Tue Sep 10 15:59:40 WIB 2024","passed","Tue Sep 10 15:59:57 WIB 2024","","Login Aplikasi LMS","",""
+"","11498","Transfer berhasil","","Mon Sep 09 16:19:32 WIB 2024","broken","Mon Sep 09 16:19:43 WIB 2024","","Transfer Aplikasi LMS","",""
+"","11045","Tarik tunai berhasil","","Mon Sep 09 16:19:43 WIB 2024","broken","Mon Sep 09 16:19:54 WIB 2024","","Tarik tunai aplikasi LMS","",""
