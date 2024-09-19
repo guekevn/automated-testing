@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14259","test_login_success","src.tests","Thu Sep 19 14:30:17 WIB 2024","passed","Thu Sep 19 14:30:31 WIB 2024","","test_login","",""
+"","5521","test_homepage","src.tests","Thu Sep 19 14:30:31 WIB 2024","passed","Thu Sep 19 14:30:36 WIB 2024","","test_home","",""

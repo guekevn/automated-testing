@@ -1,31 +1,23 @@
-import unittest
-from src.pages.login_page import LoginPage
-from conftest import driver
+import pytest
+import logging
+from pages.login_page import LoginPage
 
-class TestLogin(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.driver = driver()
-        cls.login_page = LoginPage(cls.driver)
-    
-    @classmethod
-    def tearDownClass(cls):
-        # Hentikan driver setelah pengujian
-        cls.driver.quit()
+#setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-    def test_login_success(self):
+@pytest.mark.usefixtures("driver")
+@pytest.mark.run(order=1)
+def test_login_success(driver):
+        login_page=LoginPage(driver)
         try:
-            # Langkah pengujian
-            self.login_page.click_next_button()
-            self.login_page.set_cid('00109')
-            self.login_page.set_username('kevintesting')
-            self.login_page.set_password('999999')
-            self.login_page.click_login_button()
-            self.login_page.wait_for_home_page()
-
-            print('Login berhasil')
+            logging.info('Mulai pengujian login')
+            login_page.click_next_button()
+            login_page.set_cid('00109')
+            login_page.set_username('kevintesting')
+            login_page.set_password('999999')
+            login_page.click_login_button()
+            login_page.wait_for_home_page()
+            logging.info('Login berhasil')
         except Exception as e:
-            self.fail(f'terdapat error selama pengujian yaitu: {e}')
-        
-if __name__ == '__main__':
-    unittest.main()
+            logging.error(f'Terdapat error selama pengujian yaitu: {e}')
+            pytest.fail(f'terdapat error selama pengujian yaitu: {e}')

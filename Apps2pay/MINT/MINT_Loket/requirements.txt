@@ -1,0 +1,7 @@
+Appium-Python-Client
+selenium
+pytest==7.1.2
+allure-pytest==2.9.45
+requests
+pytest-xdist
+pytest-html
