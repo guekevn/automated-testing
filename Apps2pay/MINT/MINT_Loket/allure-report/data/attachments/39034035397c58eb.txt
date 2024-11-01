@@ -1,0 +1,1 @@
+[1m[31mERROR   [0m root:test_topupsaldo.py:28 Terdapat error selama pengujian yaitu: 'TopUpSaldoPage' object has no attribute 'set_nominal'

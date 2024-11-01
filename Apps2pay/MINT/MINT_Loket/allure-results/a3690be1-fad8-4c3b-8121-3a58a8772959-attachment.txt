@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_openpayment.py:13 Mulai pengujian pembayaran tunai
+[32mINFO    [0m root:test_openpayment.py:25 Pembayaran tunai berhasil

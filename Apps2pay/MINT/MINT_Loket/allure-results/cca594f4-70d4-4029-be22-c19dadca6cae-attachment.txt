@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_openpayment.py:77 Mulai pengujian pembayaran QRIS
+[1m[31mERROR   [0m root:test_openpayment.py:92 Terdapat error selama pengujian yaitu: type object 'PointerInput' has no attribute 'TOUCH'

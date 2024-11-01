@@ -1,0 +1,15 @@
+[32mINFO    [0m root:test_poskasir.py:13 Mulai pengujian pembayaran tunai
+[1m[31mERROR   [0m root:test_poskasir.py:36 Terdapat error selama pengujian yaitu: Message: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Stacktrace:
+UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:350:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.doFindElementOrEls (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/lib/commands/find.js:40:5)
+    at doFind (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:47:17)
+    at wrappedCondFn (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:137:14)
+    at spin (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:219:20)
+    at waitForCondition (/usr/local/lib/node_modules/appium/node_modules/asyncbox/lib/asyncbox.js:236:10)
+    at AndroidUiautomator2Driver.implicitWaitForCondition (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/timeout.ts:139:12)
+    at AndroidUiautomator2Driver.findElOrEls (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:70:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)

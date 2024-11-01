@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_home.py:13 Mulai menampilkan homepage
+[32mINFO    [0m root:test_home.py:16 Berhasil menampilkan homepage

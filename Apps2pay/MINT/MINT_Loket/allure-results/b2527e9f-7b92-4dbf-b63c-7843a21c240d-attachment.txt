@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_openpayment.py:33 Mulai pengujian pembayaran debit
+[32mINFO    [0m root:test_openpayment.py:47 Pembayaran debit berhasil

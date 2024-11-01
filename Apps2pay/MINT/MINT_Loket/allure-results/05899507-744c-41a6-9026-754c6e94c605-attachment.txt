@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_openpayment.py:77 Mulai pengujian pembayaran QRIS
+[31m[1mERROR   [0m root:test_openpayment.py:92 Terdapat error selama pengujian yaitu: 'PointerInput' object has no attribute 'add_pointer_input'

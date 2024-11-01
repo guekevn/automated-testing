@@ -1,0 +1,19 @@
+[32mINFO    [0m root:test_openpayment.py:77 Mulai pengujian pembayaran QRIS
+[31m[1mERROR   [0m root:test_openpayment.py:91 Terdapat error selama pengujian yaitu: Message: Both strategy and selector arguments must be provided
+Stacktrace:
+InvalidArgumentError: Both strategy and selector arguments must be provided
+    at AndroidUiautomator2Driver.mobileScroll (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/lib/commands/gestures.js:247:11)
+    at AndroidUiautomator2Driver.executeMobile (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/execute.js:150:58)
+    at AndroidUiautomator2Driver.executeMobile (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/lib/commands/execute.js:66:50)
+    at AndroidUiautomator2Driver.execute (/Users/kevin/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/execute.js:115:23)
+    at runCommandPromise (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:115:20)
+    at /usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:171:12
+    at AsyncLock._promiseTry (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:306:31)
+    at exec (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:170:9)
+    at AsyncLock.acquire (/usr/local/lib/node_modules/appium/node_modules/async-lock/lib/index.js:189:3)
+    at AndroidUiautomator2Driver.executeCommand (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/driver.ts:159:39)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at defaultBehavior (/usr/local/lib/node_modules/appium/lib/appium.js:1122:14)
+    at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:1228:16)
+    at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:1134:17)
+    at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:387:19)
