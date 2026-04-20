@@ -1,0 +1,13 @@
+# Core testing libraries
+Appium-Python-Client
+pytest
+pytest-html
+
+# Env variable management
+python-dotenv
+
+# Report testing
+allure-pytest
+
+# Pararel testing
+pytest-xdist
